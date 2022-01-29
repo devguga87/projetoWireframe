@@ -1,0 +1,33 @@
+/* HEADER */
+.header {
+  background-color: gray;
+}
+.header-items {
+  max-width: 1200px;
+  width: 100%;
+  margin:0 auto;
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+  align-items: center;
+}
+
+.menu{
+  display: flex;
+}
+
+.menu-item a{
+  display: inline-block;
+  background-color: red;
+  padding:15px;
+  transition: background-color .3s;
+}
+
+.menu-item a:hover{
+  display: inline-block;
+  background-color: rgb(66, 56, 56);
+}
+
+.menu-item + .menu-item{
+ margin-left:40px;
+}
