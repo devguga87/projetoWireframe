@@ -3,11 +3,13 @@
   background-color:#F7F8FA;
   ;
 }
+
 .header-items {
   max-width: 1200px;
   width: 100%;
   margin:0 auto;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   height: 80px;
   align-items: center;
@@ -15,20 +17,36 @@
 
 .menu{
   display: flex;
+  align-items: center;
 }
 
 .menu-item a{
   display: inline-block;
-  background-color: red;
-  padding:15px;
+  background-color: #E6EBF2;
+  padding:12px 24px;
   transition: background-color .3s;
+  color: #5C6066;
+
 }
 
 .menu-item a:hover{
   display: inline-block;
-  background-color: rgb(66, 56, 56);
+  background-color: rgba(0,0,0,.2);
 }
 
 .menu-item + .menu-item{
  margin-left:40px;
+}
+
+.menu .btn-action{
+  background-color: #F67ACB;
+  padding:12px 35px;
+  color: #050110;
+  border:0;
+  margin-left:32px;
+  transition:filter 0.2s;
+}
+
+.menu .btn-action:hover{
+  filter:brightness(.8)
 }
