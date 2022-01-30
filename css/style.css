@@ -1,12 +1,15 @@
 /* HEADER */
 .header {
   background-color:#F7F8FA;
-  ;
 }
-.header-items {
+
+.container {
   max-width: 1200px;
   width: 100%;
   margin:0 auto;
+}
+
+.header-items {
   display: flex;
   justify-content: space-between;
   height: 80px;
@@ -31,4 +34,45 @@
 
 .menu-item + .menu-item{
  margin-left:40px;
+}
+
+/* HERO SECTION */
+.hero{
+  display: flex;
+  justify-content: space-between;
+}
+
+.hero-title{
+  font-size:48px;
+  font-weight: bold; /*modificar dps*/
+  max-width: 694px;
+  padding-top: 154px;
+  margin-bottom:20px;
+}
+
+.hero-p{
+  max-width: 488px;
+  margin-bottom:56px;
+}
+
+.hero .btn-action{
+  background-color: #F67ACB;
+  padding:20px 40px;
+  border:0;
+  transition: filter 0.3s;
+}
+
+.hero .btn-action:hover{
+  filter:brightness(.8)
+}
+
+.hero-img{
+  background-color: #F7F8FA;
+  width: 488px;
+  height: 496px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top:46px;
+  margin-bottom:98px
 }
