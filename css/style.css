@@ -81,7 +81,9 @@
   margin-top:46px;
   margin-bottom:98px
 
+
 }
+
 .menu .btn-action{
   background-color: #F67ACB;
   padding:12px 35px;
@@ -93,6 +95,7 @@
 
 .menu .btn-action:hover{
   filter:brightness(.8)
+
 }
 
 /*GRID INFO*/
@@ -169,4 +172,5 @@
 }
 .grid-img img{
   max-width: 176px;
+
 }
