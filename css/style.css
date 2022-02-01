@@ -4,10 +4,10 @@
 }
 
 .container {
-
   max-width: 1200px;
   width: 100%;
   margin:0 auto;
+  padding:0 15px;
 }
 
 .header-items {
@@ -61,7 +61,7 @@
 }
 
 .hero .btn-action{
-  background-color: #F67ACB;
+  background-color: var(--brand-colors-pink);
   padding:20px 40px;
   border:0;
   transition: filter 0.3s;
@@ -85,7 +85,7 @@
 }
 
 .menu .btn-action{
-  background-color: #F67ACB;
+  background-color: var(--brand-colors-pink);
   padding:12px 35px;
   color: #050110;
   border:0;
@@ -155,7 +155,7 @@
 
 .grid-images-button a{
   padding:20px 50px;
-  background-color: #F67ACB;
+  background-color: var(--brand-colors-pink);
   border:none;
   transition: filter .3s;
 }
@@ -173,4 +173,42 @@
 .grid-img img{
   max-width: 176px;
 
+}
+
+/* lista espera*/
+
+.lista-espera{
+  background-color:#1c1d1f;
+  text-align:center;
+}
+
+.lista-espera .espera-title{
+  font-size:3.2rem;
+  color:var(--white);
+  padding-top:15.2rem;
+  margin-bottom:2rem;
+
+}
+
+.lista-espera .espera-text{
+  color:var(--white);
+  opacity:0.7;
+  
+  max-width: 69.4rem;
+  margin:0 auto;
+}
+
+.lista-espera .espera-btn{
+  background-color:var(--brand-colors-pink);
+  padding:2rem 4rem;
+  border:0;
+  margin-top:4rem;
+  margin-bottom: 15.2rem;
+  transition:filter .3s;
+  color:var(--gray-colors-100);
+  font-weight: 600;
+}
+
+.lista-espera .espera-btn:hover{
+  filter:brightness(.8);
 }
