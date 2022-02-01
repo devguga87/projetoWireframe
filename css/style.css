@@ -212,3 +212,61 @@
 .lista-espera .espera-btn:hover{
   filter:brightness(.8);
 }
+
+/*FOOTER*/
+
+.rodape{
+  background-color: var(--gray-colors-100);
+  color: var(--white);
+}
+
+.rodape .content{
+  display:flex;
+  justify-content: space-between;
+  padding-top:8.8rem;
+  padding-bottom:7.2rem;
+}
+
+.rodape .logo p{
+ font-size:1.4rem;
+ max-width:28.1rem;
+ margin-top:3.5rem;
+ opacity: .7;
+}
+
+.rodape li a{
+  font-size:1.4rem;
+  color:var(--white);
+  opacity:.7;
+}
+
+.rodape li{
+  margin-bottom:3.2rem;
+}
+
+.rodape .title{
+  margin-bottom:2.4rem;
+  font-size:1.6rem;
+}
+
+.rodape-info{
+  display: flex;
+  justify-content: space-between;
+  margin-top:4.1rem;
+  padding-bottom:4.1rem;
+  
+}
+
+.rodape-info p{
+  font-size:1.4rem;
+  opacity: .7;
+}
+
+.text-boost{
+  display: flex;
+  align-items: center;
+}
+
+.text-boost p{
+  margin-right:1rem;
+}
