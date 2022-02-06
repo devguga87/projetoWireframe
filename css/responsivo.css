@@ -53,6 +53,11 @@
 @media(max-width:858px){
   .grid-img{
     grid-template-columns: repeat(3, 1fr);
+    margin:0 auto;
+    align-items: center;
+  }
+  .grid-img img{
+    margin:0 auto;
   }
 }
 
