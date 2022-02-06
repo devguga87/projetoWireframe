@@ -188,7 +188,7 @@
 }
 .grid-img img{
   max-width: 176px;
-
+  margin:0 auto;
 }
 
 /* lista espera*/
