@@ -48,8 +48,8 @@
 }
 
 .hero-title{
-  font-size:48px;
-  font-weight: bold; /*modificar dps*/
+  font-size:4.8rem;
+  font-weight: bold; 
   max-width: 694px;
   padding-top: 154px;
   margin-bottom:20px;
@@ -73,14 +73,19 @@
 
 .hero-img{
   background-color: #F7F8FA;
-  width: 488px;
+  max-width: 488px;
+  width: 100%;
   height: 496px;
   display: flex;
   align-items: center;
   justify-content: center;
   margin-top:46px;
   margin-bottom:98px
+}
 
+.hero-img img{
+  max-width: 160px;
+  width: 100%;
 
 }
 
@@ -91,6 +96,16 @@
   border:0;
   margin-left:32px;
   transition:filter 0.2s;
+}
+
+.btn-mobile{
+  background-color: var(--brand-colors-pink);
+  padding:12px 35px;
+  color: #050110;
+  border:0;
+  margin-left:32px;
+  transition:filter 0.2s;
+  display:none;
 }
 
 .menu .btn-action:hover{
@@ -158,6 +173,7 @@
   background-color: var(--brand-colors-pink);
   border:none;
   transition: filter .3s;
+  display: inline-block;
 }
 
 .grid-images-button a:hover{
